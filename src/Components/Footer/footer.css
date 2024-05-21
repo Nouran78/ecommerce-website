@@ -1,0 +1,284 @@
+footer {
+  width: 100%;
+  min-height: 35vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 7px;
+  background-color: #202325;
+
+  color: white;
+  margin-top :0px;
+}
+footer .footer-container {
+    
+  width: 80%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: aqua; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.footer-contact {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 10px;
+  flex-wrap: wrap;
+  /* background-color: brown; */
+}
+.footer-contact h6 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 21px;
+}
+.footer-contact .contact-data {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px;
+  /* background-color: blue; */
+  gap: 10px;
+}
+.contact-data p{
+  color: white;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.contact-data ul {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+
+}
+.contact-data ul li a {
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.contact-data ul li a:hover {
+  color: #ff324d;
+  transition: 0.5s;
+}
+.contact-data ul .ficon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contact-icons {
+  width: 200px;
+  height: 60px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* margin-top: 10px; */
+}
+.contact-icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.useful-contact {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 40px 10px;
+  /* background-color: brown; */
+  text-transform: capitalize;
+}
+.useful-contact .useful-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px;
+  /* background-color: blue; */
+  margin-bottom: 60px;
+  gap: 10px;
+}
+.useful-contact h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+}
+.useful-links ul {
+  width: 300px;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+}
+.useful-links ul li {
+  transition: 0.5s;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+.useful-links ul li:hover {
+  transition: 0.5s;
+  color: #ff324d;
+}
+.myaccount {
+  width: 350px;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 10px;
+  flex-wrap: wrap;
+  /* background-color: brown; */
+  text-transform: capitalize;
+}
+.myaccount h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+}
+.myaccount .accountUl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px;
+  /* background-color: blue; */
+  margin-bottom: 60px;
+  gap: 10px;
+}
+
+.accountUl ul {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+}
+.accountUl ul li {
+  font-size: 18px;
+  line-height: 21px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.accountUl ul li:hover {
+  transition: 0.5s;
+  color: #ff324d;
+}
+
+.newsletter {
+  width: 350px;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 10px;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* background-color: brown; */
+}
+.newsletter h6{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+}
+.newsletter p {
+  width: 300px;
+  height: 300px;
+  margin-top: 80px;
+  position: absolute;
+  top: 35px;
+  align-self: center;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400
+  ;
+  gap: 10px;
+  color:white
+}
+
+.newsletter input {
+  padding: 10px 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 100px;
+  position: relative;
+}
+.footer-line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.footer-end {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  /* background-color: chartreuse; */
+}
+.footer-end .copyRights {
+  width: 500px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.copyRights p {
+  text-transform: capitalize;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+}
+.footer-end .creditcards {
+  width: 300px;
+ min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* background-color:gray ; */
+}
+.creditcards img {
+  width: 50px;
+  height: 36px;
+}

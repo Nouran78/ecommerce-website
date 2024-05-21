@@ -1,0 +1,212 @@
+.LoginPage {
+  width: 100%;
+  min-height: 70vh;
+  margin-top: 120px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.LoginPage .login-nav {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+   background-color:#6871881a;
+  transition: 1s;
+}
+.login-nav h2 {
+  text-transform: capitalize;
+  font-size: 27px;
+  line-height: 15px;
+  font-weight: 400;
+}
+.login-nav ul {
+  width: 300px;
+  height: 80px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.login-nav ul a {
+  color: #292b2c;
+  transition: 0.5s;
+}
+.login-nav ul a:hover {
+  color: #ff324d;
+  transition: 0.5s;
+}
+.LoginPage.container-login {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+
+.container-login .login {
+  width: 600px;
+  height: 600px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 1px 1px lightgray;
+  /* background-color: brown; */
+}
+.login h2 {
+  text-transform: capitalize;
+  font-size: 27px;
+  font-weight: 400px;
+  color: #292b2c;
+}
+.login input {
+  width: 400px;
+  padding: 10px 10px;
+  font-size: 18px;
+
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  text-transform: capitalize;
+}
+.login button {
+  width: 400px;
+  padding: 10px 40px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  background-color: #ff324d;
+  color: white;
+  font-size: 16px;
+  transition: 1s;
+}
+.container-login .restInput {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: red; */
+}
+
+.restInput input {
+  align-self: stretch !important;
+  width: 20px;
+}
+.restInput label {
+  align-items: flex-start;
+  /* background-color:gold; */
+  color: #687188;
+  font-size: 16px;
+}
+.restInput a {
+  color: #687188;
+  font-size: 16px;
+  margin-left: 30px;
+}
+span {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  color: #687188;
+}
+span::before,
+span::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #000;
+  margin: auto;
+}
+.options {
+  width: 300px;
+  height: 80px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.options img {
+  width: 95px;
+  height: 40px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.options a img :hover {
+  border: 2px solid #ff324d;
+  transition: 0.5s;
+}
+.signup {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* background-color: aqua; */
+}
+.signup p {
+  color: #687188;
+}
+.signup a {
+  transition: 1s;
+  color: black;
+}
+.signup a:hover {
+  transition: 1s;
+  color: #ff324d;
+}
+.subscribe-login {
+  width: 100%;
+  height: 200px;
+  background-color: #ff324d;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.subscribe-login h2 {
+  font-size: 28px;
+  color: white;
+  text-transform: capitalize;
+}
+.subscribe-login .email-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-inputlog input {
+  width: 400px;
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.email-inputlog button {
+  width: 100px;
+  padding: 10px 10px;
+  font-size: 16px;
+  background-color: #212529;
+  color: white;
+  transition: 1s;
+  text-transform: capitalize;
+}
+.email-inputlog button:hover {
+  color: #424649;
+  transition: 1s;
+  color: white;
+  border: 1px solid white;
+}

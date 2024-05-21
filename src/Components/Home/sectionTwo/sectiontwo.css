@@ -1,0 +1,125 @@
+.sale {
+  margin-top: 0;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* flex-wrap: wrap; */
+  /* background-color: gold; */
+}
+.sale .row {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+}
+.row .allchair {
+  max-width: 60%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+  /* background-color: green; */
+}
+.allchair .info {
+  max-width: 300px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  /* background-color: darkorange; */
+  text-transform: capitalize;
+  color: #292b2c;
+}
+.info h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.info h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.info a {
+  color: #ff324d;
+}
+.allchair .chairimg {
+  max-width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: fuchsia; */
+}
+.chairimg img {
+  transition: 0.5s;
+  object-fit: contain;
+  width: 400px;
+  height: 300px;
+}
+.chairimg img:hover {
+  transition: 0.5s;
+  object-fit: cover;
+}
+/* -------------- */
+.allarmchair {
+  max-width: 80%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-wrap: wrap;
+  /* gap: 10px; */
+  /* background-color: brown; */
+}
+
+.info2 {
+  max-width: 400px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  /* background-color: darkorange; */
+  text-transform: capitalize;
+  color: #292b2c;
+}
+.info2 h3 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+.info2 h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.info2 a {
+  color: #ff324d;
+}
+.allarmchair .armchairimg {
+  max-width: 900px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: fuchsia; */
+}
+.armchairimg img {
+  width: 600px;
+  height: 300px;
+  transition: 0.5s;
+  object-fit: contain;
+}
+.armchairimg img:hover {
+  transition: 0.5s;
+  object-fit: cover;
+}

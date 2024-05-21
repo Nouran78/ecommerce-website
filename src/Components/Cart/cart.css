@@ -1,0 +1,36 @@
+section{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* background-color: blueviolet; */
+    margin-top: 120px;
+}
+section h1{
+    color:#292b2c ;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+section .cart{
+    width: 300px;
+    min-height:300px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    border:1px solid lightcoral;
+}
+.cart img{
+    width: 100px;
+    height: 100px;
+}
+.cart h2{
+    font-size: 18px;
+
+}

@@ -1,0 +1,38 @@
+.Productcontainer {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 130px;
+  gap: 10px;
+  /* background-color: red; */
+}
+.Productcontainer .users {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 1px 1px lightgoldenrodyellow;
+}
+.users img {
+  width: 100px;
+  height: 80px;
+  border-radius: 40px;
+}
+.users a {
+  font-size: 18px;
+  color: #292b2c;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.users a :hover {
+  transition: 0.5s;
+  color: #ff324d;
+}
